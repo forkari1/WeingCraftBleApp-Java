@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:text="블루투스"
+            android:textColor="#b4c7e7"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:id="@+id/BltTabBtn"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_weight="1"
+            android:background="#fa9c7e"
+            android:id="@+id/c1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/conBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#B2EBF4"
+                android:text="Scan" />
+
+
+            <!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/etSend"-->
+<!--                    android:layout_marginTop="30dip"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+
+<!--                    android:text="SendData"/>-->
+<!--                <Button-->
+<!--                    android:id="@+id/sendBtn"-->
+<!--                    android:layout_marginTop="30dip"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Send"-->
+<!--                    android:background="#B2EBF4"-->
+<!--                    />-->
+<!--                <Button-->
+<!--                    android:id="@+id/readBtn"-->
+<!--                    android:layout_marginTop="30dip"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="read"-->
+<!--                    android:background="#B2EBF4"-->
+<!--                    />-->
+<!--                <Button-->
+<!--                    android:id="@+id/notifyBtn"-->
+<!--                    android:layout_marginTop="30dip"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="notify"-->
+<!--                    android:background="#B2EBF4"-->
+<!--                    />-->
+
+            </LinearLayout>
+
+<!--        <TextView-->
+<!--            android:textSize="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Receive"-->
+<!--            android:id="@+id/bltRcv"/>-->
+
+        </LinearLayout>
+
+    </LinearLayout>

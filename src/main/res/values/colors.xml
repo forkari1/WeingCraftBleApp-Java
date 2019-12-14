@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c3c3c3</color>
+    <color name="colorPrimaryDark">#9F9F9F</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorPureWhite">#ffffff</color>
+    <color name="colorSheffieldSteel">#437299</color>
+</resources>

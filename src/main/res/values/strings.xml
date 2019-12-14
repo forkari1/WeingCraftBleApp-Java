@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeingCraft</string>
+    <string name="app_name_kr">위잉크래프트</string>
+
+    <string name="main_blind_desc">메인블라인드버튼</string>
+    <string name="main_display_desc">메인디스플레이버튼</string>
+    <string name="main_option_desc">메인옵션버튼</string>
+
+    <string name="main_blind_text">블라인드 조작</string>
+    <string name="main_display_text">스마트미러 조작</string>
+    <string name="main_option_text">설정</string>
+</resources>
